@@ -3,7 +3,7 @@
 This project demonstrates the use of Object-Oriented Programming (OOPS) concepts in building a simple Banking System.
 It models Savings Accounts and Current Accounts, handling deposits, withdrawals, interest calculations, overdraft facilities, and secure balance management.
 
-# 🚀 Features
+## 🚀 Features
 
 Encapsulation → Private balance (__balance) with secure access.
 
@@ -22,13 +22,13 @@ Exception Handling → Handles invalid inputs, insufficient balance, and overdra
 │── OOPS - Banking Project.ipynb   # Main Jupyter Notebook
 │── README.md                      # Project Documentation
 
-# 💻 Technologies Used
+## 💻 Technologies Used
 
 Python 3.x
 
 Jupyter Notebook
 
-# 🔑 OOPS Concepts Used
+## 🔑 OOPS Concepts Used
 
 Class & Objects – Account creation and management.
 
@@ -40,22 +40,22 @@ Polymorphism – Same method (withdraw) works differently.
 
 Abstraction – General banking operations.
 
-# 📊 Example Usage
-# Creating accounts
+## 📊 Example Usage
+## Creating accounts
 savings = SavingsAccount("Pooja", 5000)
 current = CurrentAccount("Sudhakar", 10000)
 
 # Deposit
 savings.deposit(2000)
 
-# Withdraw
+## Withdraw
 current.withdraw(12000)  # Allows overdraft
 
-# Balance
+## Balance
 print(savings.get_balance())
 print(current.get_balance())
 
-# 📝 Future Enhancements
+## 📝 Future Enhancements
 
 Add Graphical User Interface (GUI).
 
@@ -65,6 +65,6 @@ Multi-user login system.
 
 Generate transaction reports.
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 Nikhilesh Final Year Student | Passionate about OOPS & Real-World Applications
